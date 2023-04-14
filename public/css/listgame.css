@@ -1,0 +1,202 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+:root{
+    --bg-color: #ccd9f7;
+    --second--bg-color:rgb(238, 252, 254);
+    --text-color: #fff;
+    --main-color: #5d26da;
+}
+.center h1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: rgb(42,82,190);
+	font-size: 50px;
+	font-weight: bold;
+	width: 500px;
+	text-align: center;
+}
+
+.center h2{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 50px;
+	text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+.form .center{
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-40%);
+        height: 480px;
+        width: 500px;
+		margin-top: 40px;
+        padding: 40px 30px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,15);
+        border-radius: 10px;
+}
+
+.wrapper{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: url(wll.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: rgb(255, 255, 255);
+}
+
+.navbar .logoo{
+    padding-left: 20px;
+    width: 100px;
+    height: 80px;
+}
+.logo{
+    width: auto;
+    height: auto;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+.navbar ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #0a0a0a;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color: rgb(68,188,216,4);
+}
+
+.wrapper .center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	user-select: none;
+}
+
+.logo .form .center .listgame{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.services h2{
+    margin-bottom: 5rem;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--second--bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--main-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: var(--second--bg-color);
+    transform: scale(1.02);
+}
+
+.services-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.services-boxh3{
+    font-size: 2.6rem;
+}
+
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+h3{
+	font-size: 40px;
+	color:rgb(17, 10, 222)
+}
+.deskripsi h2{
+	font-size: 30px;
+	color:rgb(110, 105, 244);
+	margin-bottom: 10px;
+}
+
+.deskripsi li{
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: left;
+	color:rgb(91, 86, 253);
+}
+.btn{
+	margin-top: 20px;
+    display: inline-block;
+	padding: 10px 20px;
+    background: var(--main-color);
+    border-radius: 10px;
+    box-shadow: 0 0 1rem var(--text-color);
+    font-size: 15 px;
+    color: var(--second--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 200;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+.heading{
+	font-size: 50px;
+	text-align: center;
+    margin-top: 50px;
+	margin-left: 30px;
+	color: rgb(59, 18, 239);
+}
