@@ -39,36 +39,13 @@ Route::get('/ml',function (){
     return view('ml');
 });
 
-Route::get('/pubg',function (){
-    return view('pubg');
-});
-
-Route::get('/ff',function (){
-    return view('ff');
-});
-
-Route::get('/lol',function (){
-    return view('lol');
-});
-
-Route::get('/csgo',function (){
-    return view('csgo');
-});
-
-Route::get('/valorant',function (){
-    return view('valorant');
-});
-
-Route::get('/apex',function (){
-    return view('apex');
-});
-
-Route::get('/dota',function (){
-    return view('dota');
-});
 
 Route::get('/pembayaran',function (){
     return view('pembayaran');
+});
+
+Route::get('/finish',function (){
+    return view('finish');
 });
 
 Route::get('Joki',[HomeController::class,"index"]);
@@ -99,3 +76,8 @@ route::post('/edit_games_confirm/{id}',[AdminController::class, 'edit_games_conf
 route::get('/detail_games/{id}',[HomeController::class, 'detail_games']);
 
 route::post('/tambah_pesanan/{id}',[HomeController::class, 'tambah_pesanan']);
+
+route::get('/pembayaran',[HomeController::class,'show_total']);
+
+
+

@@ -62,7 +62,7 @@
                     <li>Tujuan utama dalam game ini adalah menghancurkan basis tim lawan.</li>
                     <li>Mode permainan yang tersedia: Classic, Rank, Brawl, atau VS AI.</li>
                 </div>
-                <a href="login.html" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-paint-roll' ></i>
@@ -85,7 +85,7 @@
 
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-store-alt' ></i>
@@ -104,7 +104,7 @@
                     <li>Pertandingan terdiri dari beberapa putaran dan berakhir ketika salah satu tim mencapai jumlah kemenangan yang ditentukan.
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-code-alt' ></i>
@@ -122,7 +122,7 @@
                     <li>Pertandingan biasanya terdiri dari beberapa putaran dan berakhir ketika salah satu tim mencapai jumlah kemenangan yang ditentukan.
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-paint-roll' ></i>
@@ -145,7 +145,7 @@
 
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-store-alt' ></i>
@@ -166,7 +166,7 @@
                     <li>Pertandingan biasanya berlangsung selama 30 hingga 60 menit, tergantung pada strategi dan keahlian masing-masing tim.</li>
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-code-alt' ></i>
@@ -188,7 +188,7 @@
                     <li>Pertandingan biasanya berlangsung selama 20 hingga 50 menit, tergantung pada strategi dan keahlian masing-masing tim.
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-paint-roll' ></i>
@@ -209,7 +209,7 @@
 
                     </li>
                 </div>
-                <a href="#" class="btn">Lebih Lanjut</a>
+                <a href="{{ route('login') }}" class="btn">Lebih Lanjut</a>
             </div>
         </div>
 

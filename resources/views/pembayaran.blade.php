@@ -45,59 +45,28 @@
                 <br>
                 <h2 class="heading">Pembayaran</h2>
                 <br>
-                <h4>Silahkan pilih Rank, Quantity, dan Jenis Pembayaran</h4>
+
                 <br>
-                <div class="services-container">
-                    <div class="dropdown">
-                        <div class="container">
-                            <button class="dropbtn">Rank Awal</button>
-                            <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-container">
-                    <div class="dropdown">
-                        <div class="container">
-                            <button class="dropbtn">Quantity</button>
-                            <div class="dropdown-content">
-                                <a href="#">1</a>
-                                <a href="#">2</a>
-                                <a href="#">3</a>
-                                <a href="#">4</a>
-                                <a href="#">5</a>
-                                <a href="#">6</a>
-                                <a href="#">7</a>
-                                <a href="#">8</a>
-                                <a href="#">9</a>
-                                <a href="#">10</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="services-container">
-                    <div class="dropdown">
-                        <div class="container">
-                            <button class="dropbtn">Jenis Pembayaran</button>
-                            <div class="dropdown-content">
-                                <a href="#">Bank BCA</a>
-                                <a href="#">Bank BRI</a>
-                                <a href="#">Bank Mandiri</a>
-                                <a href="#">ShopeePay</a>
-                                <a href="#">Gopay</a>
-                                <a href="#">Dana</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <table cellspacing="20"  class="total" style="margin-right: 10px" >
+                    <tr class="penamaan">
+                        <th style="color: #0c95e8">Nama Game</th>
+                        <th style="color: #0c95e8">Total Naik Rank</th>
+                        <th style="color: #0c95e8" >Total Pembayaran</th>
+                    </tr>
+                    @foreach ($pesanan as $pesanan)
+                        <tr class="penamaan">
+                            <th>{{$pesanan->nama_game}}</th>
+                            <th>{{$pesanan->naik_rank}}</th>
+                            <th>{{$pesanan->harga}}</th>
+                        </tr>
+                    @endforeach
+
+                </table>
                 <br>
                 <br>
                 <br>
                 <div class="back">
-                    <a href="{{ url('/shop') }}">Back</a>
+                    <a href="{{ url('/finish') }}">Bayar</a>
                 </div>
             </div>
     </div>

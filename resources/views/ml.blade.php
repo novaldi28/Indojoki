@@ -65,12 +65,16 @@
 
                         <div class="col-md-4">
 
-                            <input type="number" name="naik_rank" value="1" min="1" style="width: 780px" style="text-align: center" >
+                            <input type="number" name="naik_rank" value="1" min="1" style="width: 778px" style="text-align: center" >
 
                         </div>
 
                         <div class="col-md-4">
-                            <input type="submit" value="Tambah ke Pesanan">
+                            <input type="submit" value="Tambah ke Pesanan" href="{{ url('/pembayaran') }}">
+                        </div>
+
+                        <div class="tombol">
+                            <a href="{{ url('/pembayaran') }}" >Lanjutkan Bayar</a>
                         </div>
 
 

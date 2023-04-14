@@ -6,6 +6,7 @@ use App\Models\Game;
 use App\Models\Pesanan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -31,9 +32,6 @@ class HomeController extends Controller
 
     }
 
-    public function indexx(){
-
-    }
 
 
     public function tambah_pesanan(Request $request, $id){
@@ -56,5 +54,11 @@ class HomeController extends Controller
         else{
             return redirect('login');
         }
+    }
+
+    public function show_total(){
+        $id=Auth::user()->id;
+        $pesanan=pesanan::where('id_users','=',$id)->get();
+        return view('pembayaran',compact('pesanan'));
     }
 }
