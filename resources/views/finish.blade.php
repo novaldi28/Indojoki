@@ -16,7 +16,7 @@
         <ul>
             @if (Route::has('login'))
                 @auth
-                    <li><a href="{{ url('/') }}" class="active" >Home</a></li>
+                    <li><a href="{{ url('/') }}" >Home</a></li>
                     <li><a href="{{ url('/shop') }}">Shop</a></li>
                     <li><a href="{{ url('/aboutus') }}">About Us</a></li>
                     <li>
@@ -29,7 +29,7 @@
                         </form>
                     </li>
                 @else
-                    <li><a href="{{ url('/') }}" class="active" >Home</a></li>
+                    <li><a href="{{ url('/') }}" >Home</a></li>
                     <li><a href="{{ url('/benefits') }}">Benefits</a></li>
                     <li><a href="{{ url('/listgame') }}">List Games</a></li>
                     <li><a href="{{ url('/aboutus') }}">About Us</a></li>
